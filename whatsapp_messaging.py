@@ -1,10 +1,10 @@
-from twilio.rest import Client
+**from twilio.rest import Client
 
 
 def msg_mom_and_dad(event=None, context=None):
     # get your sid and auth token from twilio
-    twilio_sid = 'AC53f5fa2f73859a4c9ed682a74dff465f'
-    auth_token = '7e118e6ae7673a225c756e01bbbef3a3'
+    twilio_sid = '***'
+    auth_token = '---'
 
     whatsapp_client = Client(twilio_sid, auth_token)
 
